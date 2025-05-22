@@ -30,7 +30,7 @@ public class PanelDraw extends JPanel implements MouseMotionListener {
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING,RenderingHints.VALUE_ANTIALIAS_ON);
 
         //Joonista tausta värv, see käib PanelDraw jaoks JPanel
-        setBackground(new Color(209, 45, 244)); //saad valida värvi kas Color.GREEN valmis valik või numbritega 3tk (siis saad eesikoonist värvi vahetada)
+        setBackground(new Color(231, 203, 237)); //saad valida värvi kas Color.GREEN valmis valik või numbritega 3tk (siis saad eesikoonist värvi vahetada)
         // Joonista jooned
         for(Line line : lines) {
             g2d.setColor(line.getColor()); // määrame joone värvi
