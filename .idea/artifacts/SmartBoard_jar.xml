@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SmartBoard:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SmartBoard_jar</output-path>
+    <root id="archive" name="SmartBoard.jar">
+      <element id="module-output" name="SmartBoard" />
+    </root>
+  </artifact>
+</component>
